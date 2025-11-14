@@ -1,5 +1,7 @@
 Multithreaded Limit Order Book Simulator (C++)
-Overview
+
+Overview:
+
 This project implements a simple, multithreaded Limit Order Book (LOB) simulator in C++. It models the core behavior of an exchange matching engine: multiple trader threads submit buy/sell limit orders concurrently while a matching-engine thread continuously matches compatible orders (best bid ≥ best ask). The implementation focuses on clarity and basic correctness rather than production-grade performance.
 
 Key goals:
@@ -22,7 +24,9 @@ src/
 ├── order.cpp         # Order class implementation (header-only contents included)
 ├── orderbook.h       # OrderBook class declaration
 └── orderbook.cpp     # OrderBook implementation (add, match, cancel, display)
-Requirements
+
+Requirements :-
+
 C++17 compatible compiler (g++ or clang++)
 POSIX threads support (or equivalent) — program compiles with -pthread
 Linux, macOS, or Windows (with an appropriate toolchain)
@@ -39,6 +43,7 @@ Flags:
 Design & Key Types
 class order (src/order.h)
 Represents a single limit order.
+
 
 class order {
 public:
