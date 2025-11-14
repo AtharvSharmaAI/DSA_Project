@@ -109,13 +109,11 @@ Price :48 order :2
 ```
 
 ## Contributing
-Contributions are welcome. Suggested workflow:
-1. Fork the repository.
-2. Create a descriptive branch (e.g., `fix/cancel-order` or `enhancement/condition-var`).
-3. Add tests if possible and keep changes focused.
-4. Open a pull request with a clear description of the change.
-
-Before submitting larger changes, open an issue to discuss design choices.
+Contributors are
+1. Atharv Sharma   B24CM1013
+2. Jainam Shah   B24CS1071
+3. Shrihari Mancharkar   B24CS1106
+4. Nayan Patidar   B24CS1047
 
 ## License
 MIT License — see LICENSE (project currently indicates MIT).
