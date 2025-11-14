@@ -15,10 +15,6 @@ void simulate(orderbook &book , int no_orders){
         double cur_price = price_dist(gen);
         ll qty = qty_dist(gen);
         char pos = (stat_dist(gen) == 0)?('B'):('S');
-        // cout << "Generated order: ID " << i 
-        //      << ", Type: " << (pos == 'B' ? "Buy" : "Sell") 
-        //      << ", Price: " << cur_price 
-        //      << ", Quantity: " << qty << endl;
         order new_order(i,pos,cur_price,qty);
         book.add(new_order);
         this_thread::sleep_for(chrono::milliseconds(100));
